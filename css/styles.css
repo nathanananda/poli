@@ -1,0 +1,408 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../asset/font/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Gilroy-Light;
+  src: url(../asset/font/Gilroy-Light.ttf);
+}
+
+
+:root {
+  --main: #719bf0;
+
+}
+
+* {
+  font-family: Gilroy;
+
+}
+
+.box-login {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0px 3px 7px -2px rgba(0, 0, 0, 0.23);
+}
+
+.btn-login {
+  background-color: #719BF0;
+  border-radius: 12px;
+  box-shadow: 0px 3px 7px -2px rgba(0, 0, 0, 0.23);
+}
+
+.btn-login:hover {
+  background-color: #719BF0;
+  color: white;
+}
+
+.bg-main {
+  background: var(--main);
+  background-color: var(--main);
+}
+
+.text-main {
+  color: var(--main);
+}
+
+.landing-page {
+  background-image: url("../asset/background_web.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #719BF0;
+}
+
+/* .poli {
+ font-size: 31px;
+ color: white;
+} */
+
+/* .texticon {
+ color: white !important;
+} */
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+
+.icon img {
+  /* margin: auto;
+margin-bottom: 100px ; */
+  width: 90%;
+  max-width: 20rem;
+  min-width: 20rem;
+}
+
+.text-white {
+  color: white !important;
+  font-size: 1rem !important;
+
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 1.8rem;
+}
+
+.btn-landing-page {
+  border: 4px solid #719BF0;
+  border-radius: 67px;
+  color: #719BF0;
+}
+
+.btn-landing-page:hover {
+  background-color: #719BF0;
+  color: white;
+}
+
+.btn-next { 
+  border: 3px solid #719BF0;
+  border-radius: 73px;
+  color: #719BF0;
+}
+
+.btn-next:hover {
+  background-color: #719BF0;
+  color: white;
+}
+
+.btn-add {
+  color: #719BF0;
+  border: 1px solid #719BF0;
+  box-shadow: 0px 3px 7px -2px rgba(0, 0, 0, 0.23);
+  border-radius: 12.0148px;
+}
+
+.btn-add:hover {
+  background-color: #719BF0;
+  color: white;
+}
+
+.btn-eyes {
+  color: #719BF0;
+}
+
+.btn-eyes:hover {
+  color: #3157a1;
+}
+
+.btn-trash {
+  color: #719BF0;
+}
+
+.btn-trash:hover {
+  color: #3157a1;
+}
+
+.btn-choose {
+  border: 2px solid #719BF0;
+  border-radius: 46px;
+}
+
+.btn-choose:hover {
+  background-color: #719BF0;
+  color: #FFFFFF;
+}
+
+.btn-save {
+  border: 2px solid #719BF0;
+  border-radius: 18px;
+}
+
+.btn-save:hover {
+  background-color: #719BF0;
+  color: #FFFFFF;
+}
+
+.btn-ajukan {
+  border: 2px solid #719BF0;
+  border-radius: 18px;
+}
+
+.btn-ajukan:hover {
+  background-color: #719BF0;
+  color: #FFFFFF;
+}
+
+.role-icon {
+  background: #4068B9;
+  box-shadow: 2.80449px 4.67416px 3.73932px #719BF0;
+  border-radius: 21.5011px;
+  color: white;
+
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem !important;
+}
+
+.box {
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.breadcrumb li {
+  font-size: 0.8rem !important;
+  color: #C0C0C0;
+}
+
+.actives {
+  color: #719BF0 !important;
+}
+
+.tagline {
+  color: #719BF0;
+}
+
+.card-box {
+  background: white;
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 17px;
+}
+
+.sidebar {
+  color: #FFFFFF !important;
+}
+
+dd {
+  font-family: Gilroy-Light;
+}
+
+.biodata-user .teks-biodata {
+  font-family: Gilroy-Light !important;
+  font-size: 10px !important;
+}
+
+.dropdown-sidebar h5 {
+  font-family: Gilroy-Light !important;
+  font-weight: 0;
+}
+
+.thead-family th {
+  background: #719BF0;
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.08);
+}
+
+.thead-family th:first-child {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.thead-family th:last-child {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.thead-draft th {
+  background: #719BF0;
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.08);
+  color: #FFFFFF;
+}
+
+.thead-draft th:first-child {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.thead-draft th:last-child {
+  border-radius: 0px 15px 15px 0px;
+}
+
+table.dataTable.tablesorter thead th, 
+table.dataTable.tablesorter tfoot th {
+    background-color: #d6e9f8;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    padding: 4px;
+    color: #333;
+}
+
+
+
+
+.footer-content p {
+  font-family: Gilroy-Light;
+  color: #FFFFFF;
+}
+
+.footer-content-index {
+  background-color: #484444;
+  color: #FFFFFF;
+  font-family: Gilroy-Light;
+}
+
+.footer-content-index p {
+  font-family: Gilroy-Light;
+  color: #FFFFFF;
+}
+
+.box-table {
+  background: #F4F9FF;
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 17px;
+}
+
+/* datatable filter */
+.form-control {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 20px !important;
+}
+
+div.dataTables_length select {
+  border: 2px solid #719BF0 !important;
+  border-radius: 12px;
+  display: flex;
+}
+
+.modal-content {
+  background: #719BF0 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 27px !important;
+  color: #FFFFFF;
+}
+
+.modal-body {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0px 0px 27px 27px;
+}
+
+.modal-body img {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px gray; 
+  border-radius: 12.0148px;
+  background-color: #D9D9D9;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4068B9; 
+  border-radius: 12.0148px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3157a1; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    background-image: url(../asset/background_web.png);
+    background-size: fill;
+  }
+}
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 5 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+ 
+  .icon img {
+    /* margin: auto;
+   margin-bottom: 100px ; */
+    width: 90%;
+    max-width: 35rem;
+    min-width: 35rem;
+  }
+
+  .logo {
+    color: white;
+    font-size: 3.5rem !important;
+  }
+  
+.breadcrumb li {
+  font-size: 1rem !important;
+  color: #C0C0C0;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/*
